@@ -10,7 +10,7 @@ export default function Page({ params }) {
         <h1 className="text-4xl font-semibold leading-none tracking-tight">
           {id ? "Editar Prestador" : "Criar Prestador"}
         </h1>
-        <h2 className="text-sm font-semibold leading-none tracking-tight text-muted-foreground">
+        <h2 className="font-semibold leading-none tracking-tight text-muted-foreground">
           {id ? "Atualizar dados abaixo." : "Entre os dados abaixo."}
         </h2>
       </div>
