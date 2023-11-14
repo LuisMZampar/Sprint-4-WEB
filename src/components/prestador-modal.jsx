@@ -12,11 +12,7 @@ export default function PrestadorModal({ children, id }) {
   return (
     <Dialog
       defaultOpen
-      // onOpenChange={(open) => {
-      //   if (!open) {
-      //     redirect("/");
-      //   }
-      // }}
+
     >
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
