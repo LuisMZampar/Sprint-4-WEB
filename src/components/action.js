@@ -72,6 +72,7 @@ export const deleteArray = async (formData) => {
 
   if (prestador !== -1) {
     parsed.splice(prestador, 1);
+
   } else {
     console.log("prestador não encontrado");
     console.log("id: " + id);
